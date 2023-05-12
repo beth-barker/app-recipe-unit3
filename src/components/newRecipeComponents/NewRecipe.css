@@ -1,0 +1,100 @@
+.form-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+
+}
+
+h4 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin: 8px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.save-btn {
+    width: 20%;
+    margin: 20px;
+    background-color: teal;
+    color: white;
+    height: 30px;
+    border: none;
+}
+
+.ingredient-btn {
+    width: 20%;
+    margin:20px;
+    background-color: #d77946;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+.radio-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prep-cook-serve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-img-input {
+    display: flex;
+    justify-content: center;
+}
+
+.ing-quant-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.ingredient-list {
+    width: 40%;
+}
+
+.ingred-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.list-ing {
+    list-style-type: disc;
+    font-size: 22px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.save-btn-c {
+    display: flex;
+    justify-content: center;
+}
+
+.add-i-c{
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    margin: 20px;
+}

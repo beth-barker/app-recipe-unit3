@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #d77946;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: x-large;
+    font-family: inherit;
+}
+
+nav {
+   margin-right: 20px;
+   padding-right: 20px;
+
+}
+
+
+.button {
+    background-color: #d77946;
+    color: white;
+    border: none;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.button:hover {
+    color: antiquewhite;
+    background-color: #d87e4d;
+    box-shadow: 1px 2px 15px lightgrey;
+}
